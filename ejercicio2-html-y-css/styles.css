@@ -1,0 +1,57 @@
+.contenedor {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.formulario {
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(#bd09b7, #6b4cf5);    
+    position: relative;
+    top: 100px;    
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px 5px rgba(12, 12, 227, 0.49);    
+}
+
+.select {
+    padding: 7px;
+    width: 295px;
+}
+
+.btn {
+    position: absolute;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 340px;
+    right: 20px;
+}
+
+#email {
+    padding: 7px;
+    width: 95%;
+   
+}
+
+#pasword {
+    padding: 7px;
+    width: 95%;
+}
+
+.genero {
+    padding: 7px;
+    width: 95%;
+}
+
+@media (max-width: 500px) {
+    .formulario-area {
+        width: 100%;
+    }
+}
+
+
+
+
